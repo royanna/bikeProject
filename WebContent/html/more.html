@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>路线</title>
+    <link rel="stylesheet" href="../CSS/route.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="heading">
+            <div class="heading_1">
+                <a href="../jsp/index2.jsp" style="position: absolute;left: 10px;top:10px">返回</a>
+            </div>
+            <div class="heading_2">
+                <a href="#" style="position: absolute;left: 275px;top:10px">路线</a>
+            </div>
+            <img src="../Image/bicycle1.png" width="25px" height="25px" style="position: absolute;left: 158px;top:8px">
+        </div>
+        <div class="baby">
+            <div class="bady-m">
+            <form style="position: relative;left:20px;top: 25px;">
+                <input type="text" id="key" name="key" value="&nbsp;&nbsp;&nbsp;&nbsp;当前所在城市..." class="tex"
+                       onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                       onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+            </form>
+            <form style="position: relative;left:20px;top: 40px;">
+                <input type="text" id="key1" name="key" value="&nbsp;&nbsp;&nbsp;&nbsp;当前位置..." class="tex"
+                       onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                       onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+            </form>
+            <form style="position: relative;left:20px;top: 55px;">
+                <input type="text" id="key2" name="key" value="&nbsp;&nbsp;&nbsp;&nbsp;请输入目的地..." class="tex"
+                       onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                       onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+            </form>
+        </div>
+        </div>
+            <div class="Heat">
+            <div class="Home">
+                <div clas="Home-l">
+                    <img src="../Image/home.jpg" width="20px" height="20px" style="position: absolute; left: 20px; top: 200px;">
+                        <p onclick="demo2()" class="Com" style="position: absolute; left: 50px; top: 200px;">公交查询</p>
+                        <p class="To" style="position: absolute; left: 135px; top: 210px;">点击查看</p>
+                </div>
+                <hr width="100%" style="margin-top:-5px;border:0.5px solid gainsboro; position: absolute;top: 240px;"/>
+                <div class="Home-next">
+                    <img src="../Image/company.jpg" width="20px" height="20px" style="position: absolute; left: 20px; top: 250px;">
+                    <p onclick="demo()" class="Com" style="position: absolute; left: 50px; top: 250px;">路线查询</p>
+                    <p class="To" style="position: absolute; left: 135px; top: 260px;">点击查看</p>
+                </div>
+                <hr width="100%" style="margin-top: -5px; border: 1px solid gainsboro;position: absolute; top: 290px;"/>
+            </div>
+            <!--  
+       <div class="Continue">
+          <ul style="position: relative;left: 2px;top: 150px;" class="font_1">
+                <li><a onclick="demo()">查看详情</a></li>
+         </ul>
+        </div>-->
+    </div>
+    </div>
+</div> <div class="Wai" style="position: absolute; top: 160px;"></div>
+<script>
+    function demo() {
+        var nowplace=document.getElementById("key").value;
+        var fir_p=document.getElementById("key1").value;
+        var end_p=document.getElementById("key2").value;
+        window.location.href='planroute.html?nowplace='+nowplace+'&fir_p='+fir_p+'&end_p='+end_p;
+    }
+    function demo2() {
+        var nowplace=document.getElementById("key").value;
+        var fir_p=document.getElementById("key1").value;
+        var end_p=document.getElementById("key2").value;
+        window.location.href='busroute.html?nowplace='+nowplace+'&fir_p='+fir_p+'&end_p='+end_p;
+    }
+</script>
+</body>
+</html>

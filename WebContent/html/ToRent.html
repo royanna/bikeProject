@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我要租车</title>
+    <link href="../CSS/ToRent.css" rel="stylesheet" type="text/css">
+    <style>
+        .wimg{
+            background: url(../Image/ground2.jpg) no-repeat;
+            width:300px;
+            height:600px;
+            padding:5px;
+        }
+        .private{
+            background: #29292c;
+            width:265px;
+            height:280px;
+            padding:5px;
+            border-radius:5px;
+            filter:alpha(Opacity=60);
+            -moz-opacity:0.6;
+            opacity: 0.6
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="wimg"></div>
+    <div class="private" style="position: absolute;left:20px;top:50px;"></div>
+    <div class="heading">
+        <p class="write"style="position: absolute; left: 125px;top: 10px;">我要租车</p>
+    </div>
+    <div class="body">
+        <form method="get" action="../usedanc" style="position: absolute;left: 30px;top: 90px;">
+            <input type="text" id="sheng" name="sheng" value=" 省" class="tex1"
+                   onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                   onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+                   <p style="position:absolute;left:225px;top:5px;color:grey;">省</p>
+        <div class="input1" style="position: absolute;left: 1px;top: 60px;">
+            <input type="text" id="shi" name="shi" value=" 市" class="tex1"
+                   onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                   onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+        </div><p style="position:absolute;left:225px;top:65px;color:grey;">市</p>
+        <div class="input2" style="position: absolute;left: 1px;top: 120px;">
+            <input type="text" id="qu" name="qu" value=" 区" class="tex1"
+                   onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                   onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+        </div><p style="position:absolute;left:225px;top:128px;color:grey;">区</p>
+     <div class="input3" style="position: absolute;left: 1px;top: 180px;">
+            <input type="text" id="key4" name="key" value=" 具体地址" class="tex1"
+                   onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                   onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+     </div>
+       <div class="input4" style="position: absolute; left: 1px; top:310px;">
+            <input type="submit" class="sub" id="sub" value="提交">
+       </div>
+        </form>
+    </div>
+    <div class="footing"></div>
+</div>
+</body>
+</html>

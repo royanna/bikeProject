@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: snow;
+    height:auto;
+    background-color: black;
+}
+.container{
+    width: auto;
+    height:600px;
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+.wrapper{
+    width: auto;
+    height: 550px; 
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+.heading{
+    width: auto;
+    height: 50px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color:darkgray;
+}
+#allmap{
+    width: auto;
+    height: 500px;
+}
+.tex1{
+    margin: 0px;
+    padding: 0px;
+    width: 285px;
+    height: 35px;
+}
+.footing{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: 65px;
+    background-color: darkgray;
+}
+.Mine {
+    color: gray;
+    font-size: small;
+}
+.Here {
+    color: gray;
+    font-size: small;
+}
+.Search {
+    color: gray;
+    font-size: small;
+}
+.searching{
+    color: gray;
+    font-size: small;
+}

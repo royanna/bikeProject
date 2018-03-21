@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: snow;
+}
+.container{
+    width: auto;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+}
+.wrapper{
+    width: auto;
+    height: 500px;
+    background-color: black;
+    margin: 0px auto;
+}
+.heading{
+    color:white;
+    background-color: black;
+}
+.baby_1{
+    color: gray;
+    float: left;
+}
+.baby_2{
+    width: 280px;
+    height: 25px;
+}
+.tex1{
+    width: 230px;
+    height: 25px;
+    color: gray;
+}
+.tex2{
+    width: 230px;
+    height: 25px;
+    color: gray;
+}
+.tex3{
+    width: 230px;
+    height: 25px;
+    color: gray;
+}
+.put{
+    font-family: 微软雅黑;
+    font-size:small;
+    color: darkgoldenrod;
+}
+.put1{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    color: darkgoldenrod;
+}
+.btn{
+    width: 230px;
+    height: 30px;
+    background-color: yellow;
+}
+.youk{
+	position: relative;
+	bottom: 10px;
+	color: gray;
+	
+}
+.zc{
+	position: relative;
+	bottom: 10px;
+	color: gray;
+	left: 220px;

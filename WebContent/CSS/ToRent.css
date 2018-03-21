@@ -1,0 +1,37 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    padding:0px;
+    margin:0px;
+    width:auto;
+    height:auto;
+}
+.heading{
+    padding:0px;
+    margin: 0px;
+    width:auto;
+    height:40px;
+}
+.write{
+    font-family: 楷体;
+    font-size:20px;
+    color: white;
+}
+.tex1{
+    width:220px;
+    height:25px;
+    border-radius:5px;
+}
+.tex2{
+    width:240px;
+    height:25px;
+    border-radius:5px;
+}
+.sub{
+    width:240px;
+    height:35px;
+    color:white;
+    background-color: #1d8c3e;
+}

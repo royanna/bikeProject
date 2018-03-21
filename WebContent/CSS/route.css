@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bady-m{
+    width:auto;
+    height:150px;
+    background-color: ghostwhite;
+}
+.container{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.wrapper{
+    width: auto;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.heading{
+    width: auto;
+    height: 40px;
+    background-color: gray;
+}
+.heading_1{
+    color:white;
+    font-size: medium;
+}
+.heading_2 {
+    color: white;
+    font-size: medium;
+}
+
+.input{
+    width: 245px;
+    height: 27px;
+    
+border-radius: 50px;
+}
+.input1{
+    height: 27px;
+    width: 245px;
+    border-radius: 50px;
+    
+}
+.input2{
+    height: 27px;
+    width: 245px;
+    border-radius: 50px;
+}
+ul{
+    margin-left: 2px;
+    float: left;
+    list-style-type: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+a:link,a:visited{
+    font-weight: bold;
+    color:darkgray;
+    text-align: center;
+    padding: 6px;
+    text-decoration:none;
+}
+a:hover,a:active{
+    color: black;
+}
+.font_1{
+	font-family: 楷体;
+	font-size: 17px;
+}
+.Heat{
+    padding:0px;
+    margin-top:5px;
+    width:auto;
+    height:150px;
+
+}
+.tex{
+    height:25px;
+    width:240px;
+}
+.Com{
+    font-family: 楷体;
+    font-size:19px;
+}
+.To{
+    font-family: 楷体;
+    font-size:14px;
+    color:#999999;
+}
+.Wai{
+    width: auto;
+    height:auto;
+    background-color:ghostwhite;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="../CSS/enroll2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="Container">
+    <div class="heading">
+        <p class="write" style="position: absolute;left: 50px;top:25px;">Welcome to Locaticus</p>
+    </div>
+    <div class="body">
+        <div class="body-img">
+           <img src="../Image/Location.jpg" width="240px" height="240px" style="position: absolute; left:25px;top: 60px;">
+        </div>
+        <div class="body-tex">
+            <form method="get" action="../DbBean">
+                <div style="position: absolute;left: 50px;top: 315px;">
+                <input type="text" id="tx1" name="tx1" value="  请输入电话号码" class="tex1"
+                       onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                       onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+                </div>
+
+            <div style="position: absolute;left: 50px;top: 350px;">
+                <input type="text" id="tx2" name="tx2" value=" 请输入密码" class="tex1"
+                       onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                       onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+            </div>
+            <div style="position: absolute;left: 50px;top: 385px;">
+                <input type="text" id="tx3" name="key" value=" 确认密码" class="tex1"
+                       onFocus="if(value==defaultValue){value='';this.style.color='#000'}"
+                       onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999999">
+            </div>
+            <div style="position: absolute;left: 50px;top: 455px;">
+                <input style="overflow:visible;padding:0;position:absolute;filter:alpha(Opacity=50);
+                opacity:0.5"type="submit" value=" &nbsp;&nbsp;提交" class="btn">
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="footing"></div>
+</div>
+</body>
+</html>

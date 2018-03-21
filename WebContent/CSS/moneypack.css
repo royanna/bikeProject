@@ -1,0 +1,172 @@
+/**{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: auto;
+    height: 600px;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.wrapper{
+    width: auto;
+    height: 600px;
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke;
+}
+.heading{
+    width: auto;
+    height: 40px;
+    background-color: gray;
+}
+.baby{
+    width: auto;
+    height: 560px;
+    background-color: white;
+}
+.baby_1{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+a:link,a:visited{
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    padding: 6px;
+    text-decoration:none;
+}
+a:hover,a:active{
+    color: darkgray;
+}
+.baby_img{
+    border-radius: 50px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+img{
+    border-radius: 50px;
+}
+.HR{
+    width: 300px;
+}
+.baby_mile{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.baby_money{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.baby_make{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.baby_zhuyi{
+	font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.footing_HR{
+    width: auto;
+}
+.footing_form1{
+    color: gray;
+    font-size: medium;
+    font-family: 楷体;
+}
+.footing_form2{
+    color: gray;
+    font-size: medium;
+    font-family: 楷体;
+}*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.wrapper{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+.heading{
+    width: auto;
+    height: 40px;
+    background-color: gray;
+}
+.baby{
+    width: auto;
+    height: 560px;
+    background-color: white;;
+}
+.baby_1{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+a:link,a:visited{
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    padding: 6px;
+    text-decoration:none;
+}
+a:hover,a:active{
+    color: darkgray;
+}
+.baby_img{
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+img{
+    border-radius: 0px;
+}
+
+.baby_mile{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.baby_money{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.baby_make{
+    font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.baby_zhuyi{
+	font-family: 楷体;
+    font-size: large;
+    color: black;
+}
+.footing_HR{
+    width: auto;
+}
+.footing_form1{
+    color: gray;
+    font-size: medium;
+    font-family: 楷体;
+}
+.footing_form2{
+    color: gray;
+    font-size: medium;
+    font-family: 楷体;
+}

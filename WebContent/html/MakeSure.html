@@ -1,0 +1,157 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认交易</title>
+    <link href="../CSS/MakeSure.css" rel="stylesheet" type="text/css">
+    <style>
+        .private{
+            background: #252524;
+            width:240px;
+            height:120px;
+            filter: alpha(opacity=50);
+            -moz-opacity:0.5;
+            opacity:0.5;
+        }
+        .con-img{
+            background: url("../Image/ground7.jpg") no-repeat;
+            width:300px;
+            height:600px;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<form method="get" action="../confirm">
+    <div class="private" style="position: absolute; left: 30px; top: 130px;"></div>
+    <div class="con-img"></div>
+    <div class="heading">
+        <p class="heading-w" style="position: absolute; left: 126px; top: 10px;">确认交易</p>
+    </div>
+    <div class="body">
+        <p class="body-w"  style="position: absolute; left:15px; top: 90px;">请输入车牌号码:</p>
+            <table>
+                <tr><td>
+                    <div id="part1" style="position: absolute; left: 50px;top: 160px;">
+                <input type="text" name="txt1" id="txt1" class="txt1">
+             </div></td> </tr>
+              <tr><td>
+           <div id="part2" style="position: absolute; left: 100px;top: 160px;">
+                   <input type="text" name="txt2" id="txt2" class="txt2">
+           </div></td> </tr>
+           <tr><td><div id="part3" style="position: absolute; left: 150px;top: 160px;">
+                   <input type="text" name="txt3" id="txt3" class="txt3">
+           </div>  </td> </tr>
+           <tr><td><div id="part4" style="position: absolute; left: 200px;top: 160px;">
+                   <input type="text" name="txt4" id="txt4" class="txt4">
+           </div> </td> </tr>
+      <tr><td>
+        <div  class="sub" style="position: absolute; left: 35px; top: 330px;">
+            <input type="submit" id="mit" class="mit" value="确认交易">
+      </div></td> </tr>
+   </table>
+      
+    </div>
+          </form>
+</div> 
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <title>确认交易</title>
+    <link href="../CSS/MakeSure.css" rel="stylesheet" type="text/css">
+    <style>
+        .private{
+            background: #252524;
+            width:240px;
+            height:120px;
+            filter: alpha(opacity=50);
+            -moz-opacity:0.5;
+            opacity:0.5;
+        }
+        .con-img{
+            background: url("../Image/ground7.jpg") no-repeat;
+            width:300px;
+            height:600px;
+            padding:5px;
+        }
+        input.txt1{
+            text-align: center;
+        }
+        input.txt2{
+            text-align: center;
+        }
+        input.txt3{
+            text-align: center;
+        }
+        input.txt4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="private" style="position: absolute; left: 30px; top: 130px;"></div>
+    <div class="con-img"></div>
+    <div class="heading">
+        <p class="heading-w" style="position: absolute; left: 126px; top: 10px;">确认交易</p>
+    </div>
+    <div class="body">
+        <p class="body-w"  style="position: absolute; left:15px; top: 90px;">请输入车牌号码:</p>
+           <form name="card" method="get" action="../confirm">
+            <table>
+                    <tr><td>
+                    <div id="part1" style="position: absolute; left: 50px;top: 160px;">
+                <input language=javascript onkeyup="return T1_onkeyup()"  maxlength="1" size="1" name="txt1"
+                       type="text" id="txt1" class="txt1">
+        </div></td></tr><tr><td>
+           <div id="part2" style="position: absolute; left: 100px;top: 160px;">
+                   <input language=javascript onkeyup="return T2_onkeyup()"  maxlength="1" size="1" name="txt2"
+                           type="text" id="txt2" class="txt2">
+           </div></td></tr><tr><td>
+           <div id="part3" style="position: absolute; left: 150px;top: 160px;">
+                   <input language=javascript onkeyup="return T3_onkeyup()"  maxlength="1" size="1" name="txt3"
+                           type="text" id="txt3" class="txt3">
+           </div></td></tr><tr><td>
+           <div id="part4" style="position: absolute; left: 200px;top: 160px;">
+                   <input  maxlength="1" size="1" name="txt4"
+                           type="text" id="txt4" class="txt4">
+           </div></td></tr>
+                
+       </table>
+        <div  class="sub" style="position: absolute; left: 35px; top: 330px;">
+            <input type="submit" id="mit" class="mit" value="确认交易">
+        </div></form>
+    </div>
+</div>
+<SCRIPT language=javascript id=clientEventHandlersJS>
+    function T1_onkeyup() {
+        if(document.card.txt1.value.length==1){
+            document.card.txt2.focus();
+        }
+    }
+    function T2_onkeyup() {
+        if(document.card.txt2.value.length==1){
+            document.card.txt3.focus();
+        }
+    }
+
+    function T3_onkeyup() {
+        if(document.card.txt3.value.length==1){
+            document.card.txt4.focus();
+        }
+    }
+    function T4_onkeyup() {
+        if(document.card.txt4.value.length==1){
+            document.card.txt4.focus();
+        }
+    }
+
+</SCRIPT>
+</body>
+</html>

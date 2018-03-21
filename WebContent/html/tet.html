@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/planroute.css">
+    <title></title> 
+    <script type="text/javascript"> 
+      setInterval(test,2000); 
+      var array=new Array(); 
+      var index=0; 
+      var array= new Array("../img/11.jpg","../img/22.jpg","../img/33.jpg","../img/44.jpg","../img/55.jpg","../img/66.jpg","../img/77.jpg","../img/88.jpg","../img/99.jpg"); 
+      function test() 
+      { 
+      	var myimg=document.getElementById("imgs");
+        if(index==array.length-1) 
+        { 
+        	index=0; 
+        }else{
+        	index++; 
+        }
+        myimg.src=array[index]; 
+      } 
+</script> 
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="heading">
+            <div class="heading_1" >
+                <a href="moneypack.html" style="position: absolute;left: 10px;top:5px">返回</a>
+            </div>
+            <div class="heading_2">
+                <img src="../Image/arrowright.png" width="20px" height="20px" style="position: absolute;left: 305px;top:7px">
+            </div>
+            <img src="../Image/bicycle1.png" width="25px" height="25px" style="position: absolute;left: 168px;top:5px">
+        </div>
+        <div id="haha"></div>
+        <div id="baby" >
+        	<img id="imgs" src="../img/11.jpg" style="width: 360px;height: 520px;" /> 
+        </div>
+    </div>
+    <div class="footing">
+    </div>
+</div>
+</body>
+</html>
